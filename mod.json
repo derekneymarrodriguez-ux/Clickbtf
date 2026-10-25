@@ -1,0 +1,27 @@
+{
+    "geode": "5.11.2",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081"
+    },
+    "id": "derekneymarrodriguez-ux.clickassist",
+    "name": "Click Assist",
+    "version": "v0.1.0",
+    "developer": "derekneymarrodriguez-ux",
+    "description": "Retrasa unos ticks un clic que te mataría si otro tick cercano te salva. Botón en pantalla para móvil.",
+    "tags": ["gameplay", "utility"],
+    "settings": {
+        "max-stage": {
+            "type": "int",
+            "name": "Etapa máxima del ciclo",
+            "default": 5,
+            "min": 1,
+            "max": 5
+        },
+        "show-button": {
+            "type": "bool",
+            "name": "Mostrar botón en pantalla",
+            "default": true
+        }
+    }
+}
